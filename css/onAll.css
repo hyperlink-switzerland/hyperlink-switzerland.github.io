@@ -36,10 +36,10 @@ body {
 
 #navbar-logoAnimation {
     position: fixed;
-    top: 3px;
+    top: 5px;
     left: 20px;
-    max-height: 40px;
-    padding-top: 8px;
+    max-height: 45px;
+    padding-top: 5px;
     margin-left: -10px;
     z-index: 2;
     transition: all 0.5s ease-in-out;
@@ -51,7 +51,7 @@ body {
 
 #navbar-login {
     float: right;
-    margin: 15px 42px 15px 12px;
+    margin: 15px 60px 15px 0px;
     padding: 8px;
     border: 1px solid black;
     border-radius: 20px;
@@ -60,7 +60,8 @@ body {
 
 #navbar-signup {
     float: right;
-    margin: 15px 0px 15px 12px;
+    margin: 15px 10px 15px 0px;
+    border: 1px solid black;
     padding: 8px;
     background-color: black;
     color: white;
