@@ -184,7 +184,7 @@ body {
 }
 
 .footer-list-links li {
-    float: right;
+    float: left;
     display: inline-block;
 }
 
