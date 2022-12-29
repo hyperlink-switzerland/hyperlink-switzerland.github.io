@@ -1,8 +1,7 @@
 window.addEventListener("scroll", function () {
-    let navbarLogo = document.getElementById('navbar-logoAnimation');
-    let linkElements = document.querySelectorAll('.navbar a');
-    let login = document.getElementById('navbar-login');
-    let signup = document.getElementById('navbar-signup');
+    let navbarLogo = document.getElementById('navbar-logoAnimation'),
+        linkElements = document.querySelectorAll('.navbar a'), login = document.getElementById('navbar-login'),
+        signup = document.getElementById('navbar-signup');
     if (window.pageYOffset <= 150) {
         for (let c = 0; c < linkElements.length; c++) {
             linkElements[c].style.padding = '23px 20px'
@@ -43,3 +42,4 @@ window.addEventListener("scroll", function () {
         signup.style.border = 'none'
     }
 });
+
