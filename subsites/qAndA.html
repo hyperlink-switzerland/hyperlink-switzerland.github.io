@@ -8,13 +8,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="icon" type="image/x-icon" href="../logo.ico">
-    <script
-        src="https://www.google.com/recaptcha/enterprise.js?render=6Ld2mb4jAAAAAMWapcW_80rA9G5YKgU0yb6vxUxa"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi"></script>
     <script>
         grecaptcha.enterprise.ready(function () {
-            grecaptcha.enterprise.execute('6Ld2mb4jAAAAAMWapcW_80rA9G5YKgU0yb6vxUxa', { action: 'login' }).then(function (token) {
-
-            });
+            grecaptcha.enterprise.execute('6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi', {action: 'login'}).then(function (token) {
+                    /*function*/
+                }
+            );
         });
     </script>
 </head>
@@ -25,17 +25,17 @@
     </div>
     <nav>
         <ul class="navbar">
-            <li><a href="../index.html" id="active">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="dropdown">
                 <a href="../subsites/kurse.html" class="dropdtn">Kurse</a>
                 <div class="dropdown-content">
-                    <a href="kurse#">Web-Entwicklung</a>
-                    <a href="kurse#">API-Entwicklung</a>
-                    <a href="kurse#">KI/Machine-learning</a>
+                    <a href="kurse.html#frontendWebEntwicklung" >Web-Entwicklung</a>
+                    <a href="kurse.html#apiEntwicklung">API-Entwicklung</a>
+                    <a href="kurse.html#machineLearning">KI/Machine-learning</a>
                 </div>
             </li>
-            <li><a href="qAndA.html">Q&A</a></li>
-            <li><a href="kontak.html">Kontakt</a></li>
+            <li><a href="qAndA.html" id="active">Q&A</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
             <a href="logIn.html" id="navbar-login">Log In</a>
             <a href="signUp.html" id="navbar-signup">Sign Up</a>
         </ul>

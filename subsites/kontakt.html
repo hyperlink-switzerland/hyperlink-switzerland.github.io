@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyperlink</title>
+    <link rel="stylesheet" href="../css/onAll.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/kontakt.css">
+    <link rel="icon" type="image/x-icon" href="../logo.ico">
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi"></script>
+    <script>
+        grecaptcha.enterprise.ready(function () {
+            grecaptcha.enterprise.execute('6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi', {action: 'login'}).then(function (token) {
+                    /*function*/
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+<header>
+    <div class="navbar-logo"><a href="../index.html"><img src="../includes/logoAnimation1.png" alt="TextLogo"
+                                                          id="navbar-logoAnimation"></a>
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="../subsites/kurse.html" class="dropdtn">Kurse</a>
+                <div class="dropdown-content">
+                    <a href="kurse.html#frontendWebEntwicklung">Web-Entwicklung</a>
+                    <a href="kurse.html#apiEntwicklung">API-Entwicklung</a>
+                    <a href="kurse.html#machineLearning">KI/Machine-learning</a>
+                </div>
+            </li>
+            <li><a href="../subsites/qAndA.html">Q&A</a></li>
+            <li><a href="../subsites/kontakt.html" id="active">Kontakt</a></li>
+            <a href="../subsites/logIn.html" id="navbar-login">Log In</a>
+            <a href="../subsites/signUp.html" id="navbar-signup">Sign Up</a>
+        </ul>
+    </nav>
+</header>
+<div class="mainGrid-container">
+    <div class=mainGrid-middle>
+        <div class="siteTitle">
+            <h1>Kontakt bei Fragen!</h1>
+            <p>Wenn sie Fragen bezüglich Kurse, Preise, ... haben, können sie das folgende Formular ausfüller und wir
+                werden ihnen helfen.</p>
+        </div>
+        <h2>Kontaktformular</h2>
+        <form action="">
+            <div class="formInput-cardText formInput-name">
+                <p>Vorname</p>
+                <input type="text">
+            </div>
+            <div class="formInput-cardText formInput-name">
+                <p>Nachname</p>
+                <input type="text">
+            </div>
+            <div class="formInput-email formInput-cardText">
+                <p>E-Mail Adresse</p>
+                <input type="email">
+            </div>
+            <div class="formInput-cardText">
+                <p>Telefonnummer (optional)</p>
+                <input type="tel">
+            </div>
+            <div class="formInput-text formInput-cardText">
+                <p>Nachricht</p>
+                <textarea name="text" rows="4" cols="50" placeholder="schreib deine Nachricht hier"></textarea>
+            </div>
+            <div class="formInput-submit">
+                <a href="kontakSend.html" class="formInput-submitButton" target="_blank">Absenden</a>
+            </div>
+        </form>
+    </div>
+    <div class="mainGrid-footer">
+        <footer>
+            <div class="footerGrid-container">
+                <div class="footerGrid-logo">
+                    <img src="../includes/logoAnimation1.png" alt="logo" class="footer-logo">
+                </div>
+                <div class="footerGrid-itemLeft">
+                    <ul class="footer-list">
+                        <li class="footer-list-title"><p><b>Information</b></p></li>
+                        <li class="footer-list-content"><a href="">Kurse</a></li>
+                        <li class="footer-list-content"><a href="">Preise</a></li>
+                        <li class="footer-list-content"><a
+                                href="mailto:hyperlink.switzerland@gmail.com">Kontakt-Email</a></li>
+                        <li class="footer-list-content"><a href="">Dokumentation</a></li>
+                    </ul>
+                </div>
+                <div class="footerGrid-itemRight">
+                    <ul class="footer-list">
+                        <li class="footer-list-title"><p><b>Rechtliches</b></p></li>
+                        <li class="footer-list-content"><a href="">AGB</a></li>
+                        <li class="footer-list-content"><a href="">&copy; Copyright</a></li>
+                        <li class="footer-list-content"><a href="">Impressum</a></li>
+                    </ul>
+                </div>
+                <div class="footerGrid-copyrightDescription">
+                    <p>Hyperlink &copy; 2022-2029 alle Rechte vorbehalten</p>
+                </div>
+                <div class="footerGrid-links">
+                    <ul class="footer-list-links">
+                        <li><a href="https://github.com/hyperlink-switzerland/hyperlink-switzerland.github.io"
+                               target="_blank"><img
+                                src="../includes/footerIcons/github.png" alt="" class="footer-list-link-image"
+                                id="footer-list-link-firstImage"></a>
+                        </li>
+                        <li><a href="https://codevogel.ch/m231-2022/hyperlink" target="_blank"><img
+                                src="../includes/footerIcons/gitlab.png" alt="Gitlab"
+                                class="footer-list-link-image"></a></li>
+                        <li><a href="http://www.example.com/" target="_blank"><img
+                                src="../includes/footerIcons/facebook.png" alt="Gitlab"
+                                class="footer-list-link-image"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+<script src="../js/javaScript.js"></script>
+<script src="../js/index.js"></script>
+</html>

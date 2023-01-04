@@ -1,0 +1,46 @@
+.formInput-cardText {
+    margin-top: 20px;
+}
+
+.formInput-cardText p {
+    margin: 5px 0 10px 0px;
+}
+
+.formInput-cardText input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 200px;
+}
+
+.formInput-name {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.formInput-email input {
+    width: 430px;
+}
+
+.formInput-text {
+    margin-top: 40px;
+}
+
+.formInput-text textarea {
+    width: 430px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.formInput-submit {
+    margin-top: 20px;
+}
+.formInput-submitButton {
+    padding: 10px 20px 10px 20px;
+    background-color: #0d6dfc;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+}
