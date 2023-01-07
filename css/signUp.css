@@ -1,0 +1,50 @@
+.singUpLogo {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SignUp-Title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.formSignUp-cardText {
+    margin-top: 20px;
+}
+
+.formSignUp-cardText input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 35px;
+    width: 300px;
+}
+
+.formSignUp-cardText p {
+    margin: 5px 0 10px 0;
+}
+
+.formSingUp-submit {
+    margin-top: 35px;
+}
+
+.formSignUp-submitButton {
+    text-decoration: none;
+    padding: 15px 125px 15px 125px;
+    background-color: #008ce3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.formSignUp-submitButton:hover  {
+    background-color: #0171b7;
+    font-size: 18px;
+}
