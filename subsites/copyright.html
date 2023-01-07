@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="../css/onAll.css">
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../css/kontakt.css">
     <link rel="icon" type="image/x-icon" href="../logo.ico">
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld2mb4jAAAAAMWapcW_80rA9G5YKgU0yb6vxUxa"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi"></script>
     <script>
-        grecaptcha.enterprise.ready(function() {
-            grecaptcha.enterprise.execute('6Ld2mb4jAAAAAMWapcW_80rA9G5YKgU0yb6vxUxa', {action: 'login'}).then(function(token) {
-            ...
-            });
+        grecaptcha.enterprise.ready(function () {
+            grecaptcha.enterprise.execute('6LdMyLQjAAAAAPLtmUKg_E5cZpFD0jTSPWBAVPZi', {action: 'login'}).then(function (token) {
+                    /*function*/
+                }
+            );
         });
     </script>
 </head>
@@ -33,46 +33,34 @@
                     <a href="kurse.html#machineLearning">KI/Machine-learning</a>
                 </div>
             </li>
-            <li><a href="../subsites/qAndA.html">Q&A</a></li>
-            <li><a href="../subsites/kontakt.html" id="active">Kontakt</a></li>
-            <a href="../subsites/logIn.html" id="navbar-login">Log In</a>
-            <a href="../subsites/signUp.html" id="navbar-signup">Sign Up</a>
+            <li><a href="qAndA.html" id="active">Q&A</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <a href="logIn.html" id="navbar-login">Log In</a>
+            <a href="signUp.html" id="navbar-signup">Sign Up</a>
         </ul>
     </nav>
 </header>
+
 <div class="mainGrid-container">
-    <div class=mainGrid-middle>
+    <div class="mainGrid-middle">
         <div class="siteTitle">
-            <h1>Kontakt bei Fragen!</h1>
-            <p>Wenn sie Fragen bezüglich Kurse, Preise, ... haben, können sie das folgende Formular ausfüller und wir
-                werden ihnen helfen.</p>
+            <h1>Copyright</h1>
+            <p>Copyright 2023 Hyperlink. Alle Rechte vorbehalten.</p>
         </div>
-        <h2>Kontaktformular</h2>
-        <form action="">
-            <div class="formInput-cardText formInput-name">
-                <p>Vorname</p>
-                <input type="text">
-            </div>
-            <div class="formInput-cardText formInput-name">
-                <p>Nachname</p>
-                <input type="text">
-            </div>
-            <div class="formInput-email formInput-cardText">
-                <p>E-Mail Adresse</p>
-                <input type="email">
-            </div>
-            <div class="formInput-cardText">
-                <p>Telefonnummer (optional)</p>
-                <input type="tel">
-            </div>
-            <div class="formInput-text formInput-cardText">
-                <p>Nachricht</p>
-                <textarea name="text" rows="4" cols="50" placeholder="schreib deine Nachricht hier"></textarea>
-            </div>
-            <div class="formInput-submit">
-                <a href="kontakSend.html" class="formInput-submitButton">Absenden</a>
-            </div>
-        </form>
+        <p>Die auf dieser Webseite enthaltenen Informationen, Grafiken, Fotos, Videos, Tonaufnahmen und andere
+            Materialien sind durch das Urheberrecht und andere geltende Gesetze zum Schutz geistigen Eigentums
+            geschützt. Diese Materialien dürfen ohne vorherige schriftliche Genehmigung des Urhebers weder vollständig
+            noch teilweise verwendet, vervielfältigt, verbreitet, verändert, veröffentlicht oder in irgendeiner anderen
+            Form verwertet werden. <br><br>
+
+            Die auf dieser Webseite bereitgestellten Informationen dienen ausschließlich zu Informationszwecken und
+            stellen keine Beratung oder Empfehlung dar. Wir übernehmen keine Haftung für die Richtigkeit,
+            Vollständigkeit und Aktualität der bereitgestellten Informationen. Die Verwendung der auf dieser Webseite
+            bereitgestellten Informationen erfolgt auf eigene Gefahr. <br><br>
+
+            Links zu anderen Webseiten stellen keine Zustimmung oder Billigung der dort enthaltenen Informationen dar.
+            Wir übernehmen keine Verantwortung für die Inhalte verlinkter Webseiten und bitten Sie, sich im Zweifel an
+            den jeweiligen Webseitenbetreiber zu wenden.</p>
     </div>
     <div class="mainGrid-footer">
         <footer>
@@ -119,7 +107,8 @@
         </footer>
     </div>
 </div>
+</div>
 </body>
+<script src="../js/qAndA.js"></script>
 <script src="../js/javaScript.js"></script>
-<script src="../js/index.js"></script>
 </html>
